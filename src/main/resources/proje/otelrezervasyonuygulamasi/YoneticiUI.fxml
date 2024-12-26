@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: B3AFC6;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proje.otelrezervasyonuygulamasi.YoneticiUIController">
+   <children>
+      <Button layoutX="14.0" layoutY="324.0" mnemonicParsing="false" onAction="#rezervasyonListele" prefHeight="50.0" prefWidth="138.0" style="-fx-background-color: #727272;" stylesheets="@button.css" text="Rezervasyonları Listele" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font></Button>
+      <Button layoutX="307.0" layoutY="324.0" mnemonicParsing="false" onAction="#bilgiGuncelle" prefHeight="50.0" prefWidth="138.0" style="-fx-background-color: #727272;" stylesheets="@button.css" text="Otel Bilgileri Güncelle" textFill="WHITE" />
+      <Button layoutX="161.0" layoutY="324.0" mnemonicParsing="false" onAction="#rezervasyonIptal" prefHeight="50.0" prefWidth="138.0" style="-fx-background-color: #727272;" stylesheets="@button.css" text="Rezervasyon İptal Et" textFill="WHITE" />
+      <Button layoutX="455.0" layoutY="324.0" mnemonicParsing="false" onAction="#yorumGoruntule" prefHeight="50.0" prefWidth="138.0" style="-fx-background-color: #727272;" stylesheets="@button.css" text="Otel Yorumlarına Bak" textFill="WHITE" />
+      <ImageView fitHeight="251.0" fitWidth="204.0" layoutX="206.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hotel.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="187.0" layoutY="20.0" prefHeight="27.0" prefWidth="240.0" text="Otel Rezervasyon Uygulaması">
+         <font>
+            <Font name="DejaVu Sans Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="251.0" fitWidth="204.0" layoutX="14.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@manager.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="394.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Giriş Yaptınız:" wrappingWidth="163.0859375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="394.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yönetici" wrappingWidth="163.0859375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

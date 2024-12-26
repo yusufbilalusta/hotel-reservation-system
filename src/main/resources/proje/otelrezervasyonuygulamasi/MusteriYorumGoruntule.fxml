@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="512.0" prefWidth="668.0" style="-fx-background-color: #8F8BAA;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proje.otelrezervasyonuygulamasi.MusteriYorumGoruntuleController">
+   <children>
+      <Label layoutX="214.0" layoutY="14.0" prefHeight="27.0" prefWidth="258.0" text="Oteller Hakkındaki Yorumlar">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TableView fx:id="Tablo" layoutX="-5.0" layoutY="59.0" prefHeight="456.0" prefWidth="678.0" style="-fx-background-color: #8F8BAA;">
+         <columns>
+            <TableColumn fx:id="otelIsim" maxWidth="339.0" minWidth="339.0" prefWidth="339.0" text="Otel" />
+            <TableColumn fx:id="yapilanYorum" maxWidth="339.0" minWidth="339.0" prefWidth="339.0" text="Yorum" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>
